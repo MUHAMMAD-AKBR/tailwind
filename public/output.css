@@ -482,12 +482,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0px;
 }
 
-.right-0{
-  right: 0px;
+.left-0{
+  left: 0px;
 }
 
 .bottom-0{
   bottom: 0px;
+}
+
+.right-\[42\%\]{
+  right: 42%;
 }
 
 .mx-auto{
@@ -495,12 +499,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
-.mt-10{
-  margin-top: 2.5rem;
+.ml-2{
+  margin-left: 0.5rem;
 }
 
-.mb-2{
-  margin-bottom: 0.5rem;
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .block{
@@ -523,18 +527,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100px;
 }
 
-.w-10{
-  width: 2.5rem;
-}
-
-.w-20{
-  width: 5rem;
-}
-
-.w-60{
-  width: 15rem;
-}
-
 .w-40{
   width: 10rem;
 }
@@ -551,10 +543,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: center;
 }
 
-.justify-start{
-  justify-content: flex-start;
-}
-
 .justify-center{
   justify-content: center;
 }
@@ -563,16 +551,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.5rem;
 }
 
-.overflow-x-hidden{
-  overflow-x: hidden;
+.justify-self-start{
+  justify-self: start;
+}
+
+.overflow-hidden{
+  overflow: hidden;
 }
 
 .rounded{
   border-radius: 0.25rem;
-}
-
-.border-0{
-  border-width: 0px;
 }
 
 .bg-green-300{
@@ -614,7 +602,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .font-header{
-  font-family: Roboto;
+  font-family: Oswald;
 }
 
 .text-8xl{
@@ -622,32 +610,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-base{
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.font-semibold{
-  font-weight: 600;
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold{
   font-weight: 700;
+}
+
+.font-semibold{
+  font-weight: 600;
 }
 
 .text-green-300{
@@ -656,6 +634,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .btn-black{
+  position: relative;
   margin-right: 0.75rem;
   margin-top: 0.5rem;
   display: block;
@@ -684,6 +663,117 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(134 239 172 / var(--tw-text-opacity));
 }
 
-.hover\:touch-none:hover{
-  touch-action: none;
+.before\:absolute::before{
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:top-0::before{
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.before\:right-0::before{
+  content: var(--tw-content);
+  right: 0px;
+}
+
+.before\:block::before{
+  content: var(--tw-content);
+  display: block;
+}
+
+.before\:h-10::before{
+  content: var(--tw-content);
+  height: 2.5rem;
+}
+
+.before\:h-5::before{
+  content: var(--tw-content);
+  height: 1.25rem;
+}
+
+.before\:min-h-full::before{
+  content: var(--tw-content);
+  min-height: 100%;
+}
+
+.before\:w-10::before{
+  content: var(--tw-content);
+  width: 2.5rem;
+}
+
+.before\:w-20::before{
+  content: var(--tw-content);
+  width: 5rem;
+}
+
+.before\:translate-x-10::before{
+  content: var(--tw-content);
+  --tw-translate-x: 2.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.before\:translate-x-20::before{
+  content: var(--tw-content);
+  --tw-translate-x: 5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.before\:translate-x-24::before{
+  content: var(--tw-content);
+  --tw-translate-x: 6rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.before\:rounded::before{
+  content: var(--tw-content);
+  border-radius: 0.25rem;
+}
+
+.before\:bg-red-300::before{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+}
+
+.before\:bg-black::before{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.before\:bg-green-300::before{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+}
+
+.before\:bg-white::before{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.before\:bg-\[url\(\'\.\.\/img\/question-mark\.svg\'\)\]::before{
+  content: var(--tw-content);
+  background-image: url('../img/question-mark.svg');
+}
+
+.before\:text-green-300::before{
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(134 239 172 / var(--tw-text-opacity));
+}
+
+.before\:text-white::before{
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.before\:text-black::before{
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }

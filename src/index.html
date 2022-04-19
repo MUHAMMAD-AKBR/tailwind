@@ -8,20 +8,20 @@
     <!-- mengarah ke output hasil compilasi tailwind -->
     <link rel="stylesheet" href="../public/output.css">
 </head>
-<body class="overflow-x-hidden">
-    <div class="header text-center bg-green-300 py-5 px-3 text-8xl font-header-500 h-screen flex justify-center items-center relative">
+<body class="overflow-hidden">
+    <div class="header text-center bg-green-300 py-5 px-3 text-8xl font-header-500 h-screen flex justify-self-start items-center relative">
         <span class="mx-auto block">My Project</span> 
-            <div class="container-button absolute flex justify-start flex-col top-0 right-0">
-                <div class="home-btn  btn-black"> home </div>
-                    <div class="about-btn  btn-black"> about </div>
-                <div class="follow-btn  btn-black"> follow </div>
-            </div>
-                <div class="tailwind-img absolute bottom-0 mb-2">
-                    <span class="text-lg text-center font-bold ">created using tailwind</span>
-                        <img src="../img/tailwind.svg" class="w-40 text-center" alt="tailwind-img">
-                </div>
+        <div class="container-button absolute flex justify-self-start flex-col top-0 left-0 ml-2">
+            <div class="home-btn  btn-black before:w-20 before:min-h-full before:top-0 before:rounded before:absolute before:block before:bg-white before:text-black before:translate-x-24 before:bg-[url('../img/question-mark.svg')]"> home </div>
+            <div class="about-btn  btn-black before:w-20 before:min-h-full before:top-0 before:rounded before:absolute before:block before:bg-white before:text-black before:translate-x-24 before:bg-[url('../img/question-mark.svg')]"> about </div>
+            <div class="follow-btn  btn-black before:w-20 before:min-h-full before:top-0 before:rounded before:absolute before:block before:bg-white before:text-black before:translate-x-24 before:bg-[url('../img/question-mark.svg')]"> follow </div>
+        </div>
+        <div class="container-img absolute bottom-0 right-[42%] flex flex-col">
+            <span class="text-lg text-center font-bold mx-auto block">Created using tailwindCSS</span>
+            <img src="../img/tailwind.svg" class="w-40 text-center mx-auto" alt="tailwind-img">
+        </div>
     </div>
-    <div class="projects grid grid-cols-1 gap-2 mt-10 py-4 px-6 bg-green-300">
+    <div class="grid-projects grid grid-cols-1 gap-2 mt-10 py-4 px-6 bg-green-300">
         <div class="test h-[100px] bg-black rounded text-green-300 p-2 font-header text-center flex items-center justify-center text-3xl font-semibold"> canvases</div>
         <div class="test h-[100px] bg-black rounded text-green-300 p-2 font-header text-center flex items-center justify-center text-3xl font-semibold"> canvases</div>
         <div class="test h-[100px] bg-black rounded text-green-300 p-2 font-header text-center flex items-center justify-center text-3xl font-semibold"> canvases</div>
