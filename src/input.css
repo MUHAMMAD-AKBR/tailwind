@@ -8,6 +8,6 @@
 }
 
 .toolkit{
-    @apply absolute w-20 h-full top-0 right-0 translate-x-24 rounded bg-black justify-center items-center cursor-default
+    @apply absolute w-20 h-full top-0 right-0 translate-x-24 rounded bg-green-300 justify-center items-center cursor-default
 }
 

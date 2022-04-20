@@ -6,7 +6,7 @@ homeBtn.addEventListener('mouseover', e => {
     let target = (e.target as HTMLDivElement);
     if(e.target == homeBtn){
         (target.childNodes[1] as HTMLDivElement).classList.remove('hidden');
-        (target.childNodes[1] as HTMLDivElement).classList.add('flex')
+        (target.childNodes[1] as HTMLDivElement).classList.add('flex');
     }
 })
 
@@ -14,7 +14,7 @@ homeBtn.addEventListener('mouseout', e => {
     let target = (e.target as HTMLDivElement);
     if(e.target == homeBtn){
         (target.childNodes[1] as HTMLDivElement).classList.remove('flex');
-        (target.childNodes[1] as HTMLDivElement).classList.add('hidden')
+        (target.childNodes[1] as HTMLDivElement).classList.add('hidden');
     }
 })
 
@@ -22,7 +22,7 @@ followBtn.addEventListener('mouseover', e => {
     let target = (e.target as HTMLDivElement);
     if(e.target == followBtn){
         (target.childNodes[1] as HTMLDivElement).classList.remove('hidden');
-        (target.childNodes[1] as HTMLDivElement).classList.add('flex')
+        (target.childNodes[1] as HTMLDivElement).classList.add('flex');
     }
 })
 
@@ -30,7 +30,7 @@ followBtn.addEventListener('mouseout', e => {
     let target = (e.target as HTMLDivElement);
     if(e.target == followBtn){
         (target.childNodes[1] as HTMLDivElement).classList.remove('flex');
-        (target.childNodes[1] as HTMLDivElement).classList.add('hidden')
+        (target.childNodes[1] as HTMLDivElement).classList.add('hidden');
     }
 })
 
@@ -38,7 +38,7 @@ aboutBtn.addEventListener('mouseover', e => {
     let target = (e.target as HTMLDivElement);
     if(e.target == aboutBtn){
         (target.childNodes[1] as HTMLDivElement).classList.remove('hidden');
-        (target.childNodes[1] as HTMLDivElement).classList.add('flex')
+        (target.childNodes[1] as HTMLDivElement).classList.add('flex');
     }
 })
 
@@ -46,6 +46,6 @@ aboutBtn.addEventListener('mouseout', e => {
     let target = (e.target as HTMLDivElement);
     if(e.target == aboutBtn){
         (target.childNodes[1] as HTMLDivElement).classList.remove('flex');
-        (target.childNodes[1] as HTMLDivElement).classList.add('hidden')
+        (target.childNodes[1] as HTMLDivElement).classList.add('hidden');
     }
 })
