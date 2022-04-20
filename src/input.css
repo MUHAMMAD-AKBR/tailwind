@@ -8,5 +8,5 @@
 }
 
 .toolkit{
-    @apply absolute w-20 h-full top-0 right-0 translate-x-24 text-black rounded bg-white flex justify-center items-center
+    @apply absolute w-20 h-full top-0 right-0 translate-x-24 text-black rounded bg-white flex justify-center items-center duration-300 ease-in-out
 }
