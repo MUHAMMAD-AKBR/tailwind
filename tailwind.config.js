@@ -4,6 +4,9 @@ module.exports = {
     extend: {
       fontFamily: {
         header: ['Oswald']
+      },
+      backgroundImage: {
+        'question-mark': "url('../img/question-mark.svg')"
       }
     },
   },

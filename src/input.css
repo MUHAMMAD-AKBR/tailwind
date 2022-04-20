@@ -6,3 +6,7 @@
 .btn-black {
     @apply text-2xl block  border-black border-2  mr-3 rounded-full py-1 px-3 mt-2 transition-all hover:bg-black hover:text-green-300 cursor-pointer hover:-translate-y-1 relative
 }
+
+.toolkit{
+    @apply absolute w-20 h-full top-0 right-0 translate-x-24 text-black rounded bg-white flex justify-center items-center
+}
