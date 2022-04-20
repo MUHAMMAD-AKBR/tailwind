@@ -507,6 +507,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2.5rem;
 }
 
+.mt-20{
+  margin-top: 5rem;
+}
+
 .block{
   display: block;
 }
@@ -535,12 +539,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100px;
 }
 
+.h-\[500px\]{
+  height: 500px;
+}
+
 .w-9{
   width: 2.25rem;
 }
 
 .w-40{
   width: 10rem;
+}
+
+.w-\[1000px\]{
+  width: 1000px;
 }
 
 .grid-cols-1{
@@ -643,6 +655,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-semibold{
   font-weight: 600;
+}
+
+.font-extrabold{
+  font-weight: 800;
 }
 
 .text-green-300{
