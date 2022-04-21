@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        header: ['Oswald']
+        header: ['Roboto']
       },
       backgroundImage: {
         'question-mark': "url('../img/question-mark.svg')"

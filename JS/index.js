@@ -1,3 +1,4 @@
+import { grid, validate } from "./grid.js";
 const homeBtn = document.querySelector('.home-btn');
 const aboutBtn = document.querySelector('.about-btn');
 const followBtn = document.querySelector('.follow-btn');
@@ -43,3 +44,6 @@ aboutBtn.addEventListener('mouseout', e => {
         target.childNodes[1].classList.add('hidden');
     }
 });
+// grid
+// 1.validate will validate the number of grid items it will have if it has an odd number than the last index will be streached
+validate(grid.children.length);
