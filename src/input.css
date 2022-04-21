@@ -11,3 +11,7 @@
     @apply absolute w-20 h-full top-0 right-0 translate-x-24 rounded bg-green-300 justify-center items-center cursor-default
 }
 
+.grid-item{
+    @apply border-green-400 border-2 rounded text-center text-3xl p-2 shadow-sm shadow-green-300 
+}
+
