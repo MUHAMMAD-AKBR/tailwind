@@ -11,7 +11,7 @@
     @apply absolute w-20 h-full top-0 right-0 translate-x-24 rounded bg-green-300 justify-center items-center cursor-default
 }
 
-.grid-item{
-    @apply border-green-400 border-2 rounded text-center text-3xl p-2 shadow-sm shadow-green-300 
+.card{
+    @apply  text-2xl text-green-300 border-2 border-gray-900 max-w-[20ch] px-4 py-4 m-5 rounded-md duration-150 ease-out hover:shadow-gray-400 hover:shadow-md hover:-translate-y-2
 }
 
