@@ -10,8 +10,12 @@
 </head>
 <!-- NOTES -->
 <!-- 1.set toolkit to hidden in the future im going to use typescript for removing the hidden class -->
-<body>
+<body class="overflow-x-hidden"> 
+    <!-- before classes is after the relative class -->
     <div class="header text-center bg-green-300 py-5 px-3 text-8xl font-header font-extrabold h-screen flex justify-self-start items-center relative">
+        <div class="circle-decorator-t-r"></div>
+        <div class="circle-decorator-b-l"></div>
+        <div class="circle-decorator-b-r"></div>
         <span class="mx-auto block">My Project</span> 
         <div class="container-button absolute flex justify-self-start flex-col top-0 left-0 ml-2">
             <div class="home-btn  btn-black">
@@ -41,16 +45,18 @@
     <!-- Content -->
     <div class="container-content font-header font-extrabold bg-black text-center text-green-400 p-2">
         <span class="text-6xl block px-4 py-8 text-center tracking-wide">find your favourite!</span>
-           <div class="card">
-               canvases:
-               these are my canvas projects that i have built using vanilla js(no frameworks)
-           </div> 
-           <div class="card mr-auto">
-               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sunt eos ut voluptatum soluta. Commodi modi nulla vero inventore delectus.
-           </div>
-           <div class="card">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt minus eligendi iste perferendis, amet mollitia cupiditate facilis consequuntur quos?
-           </div>
+            <div class="container-3card flex justify-center ">
+                <div class="card">
+                    canvases:
+                    these are my canvas projects that i have built using vanilla js(no frameworks)
+                </div> 
+                <div class="card">
+                    copying an ecommerce card feature
+                </div>
+                <div class="card">
+                    other...
+                </div>
+            </div>
     </div>
     <script type="module" src="../JS/index.js"></script>
 </body>

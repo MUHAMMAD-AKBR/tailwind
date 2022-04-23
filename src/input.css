@@ -12,6 +12,17 @@
 }
 
 .card{
-    @apply  text-2xl text-green-300 border-2 border-gray-900 max-w-[20ch] px-4 py-4 m-5 rounded-md duration-150 ease-out hover:shadow-gray-400 hover:shadow-md hover:-translate-y-2
+    @apply  text-2xl text-green-300 border-2 border-gray-900 max-w-[30%] px-4 py-4 m-5 rounded-md duration-150 ease-out hover:shadow-gray-400 hover:shadow-md hover:-translate-y-2
 }
 
+.circle-decorator-t-r{
+    @apply bg-black absolute w-80 h-80 block -top-20 -right-20 rounded-[50%]
+}
+
+.circle-decorator-b-l{
+    @apply bg-black absolute w-80 h-80 block -bottom-20 -left-20 rounded-[50%]
+}
+
+.circle-decorator-b-r{
+    @apply bg-black absolute w-40 h-40 block -bottom-20 -right-20 rounded-[50%]
+}
