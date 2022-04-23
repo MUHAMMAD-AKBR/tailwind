@@ -26,3 +26,7 @@
 .circle-decorator-b-r{
     @apply bg-black absolute w-40 h-40 block -bottom-20 -right-20 rounded-[50%]
 }
+
+.dialogbox{
+    @apply coba block absolute  bg-green-300 rounded text-xl text-black z-30
+}
