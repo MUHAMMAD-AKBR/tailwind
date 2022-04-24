@@ -28,5 +28,5 @@
 }
 
 .dialogbox{
-    @apply coba block absolute  bg-green-300 rounded text-xl text-black z-30
+    @apply block absolute max-w-[40%] min-h-[40%] bg-black rounded text-xl text-green-300 p-4 font-header font-bold z-[9999] top-[20%] right-[50%] translate-x-[50%] translate-y-[50%]
 }
