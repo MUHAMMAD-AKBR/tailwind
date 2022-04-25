@@ -5,21 +5,30 @@ const dialogbox = document.querySelector('.dialogbox') as HTMLDivElement;
 
 export function cHandler(){
     dialogbox.classList.toggle('opacity-0');
-    dialogbox.classList.toggle('animate-pop');
+    dialogbox.classList.add('animate-pop');
+    setTimeout(() => {
+        dialogbox.classList.remove('animate-pop')
+    }, 400)
     let content = canvas.textContent;
     dialogbox.textContent = content;
 }
 
 export function eHandler(){
     dialogbox.classList.toggle('opacity-0');
-    dialogbox.classList.toggle('animate-pop');
+    dialogbox.classList.add('animate-pop');
+    setTimeout(() => {
+        dialogbox.classList.remove('animate-pop')
+    }, 400)
     let content = ecom.textContent;
     dialogbox.textContent = content;
 }
 
 export function oHandler(){
     dialogbox.classList.toggle('opacity-0');
-    dialogbox.classList.toggle('animate-pop');
+    dialogbox.classList.add('animate-pop');
+    setTimeout(() => {
+        dialogbox.classList.remove('animate-pop')
+    }, 400)
     let content = other.textContent;
     dialogbox.textContent = content;
 }
