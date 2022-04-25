@@ -5,10 +5,16 @@ module.exports = {
       fontFamily: {
         header: ['Roboto']
       },
-      backgroundImage: {
-        'question-mark': "url('../img/question-mark.svg')"
+      keyframes: {
+        pop: {
+          '0%': { transform: 'scale(0)'},
+          '100%': {transform: 'scale(1)'}
+        }
+      },
+      animation: {
+        pop: 'pop 450ms ease-in-out forwards'
       }
-    },
+    }
   },
   plugins: [],
 }

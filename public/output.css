@@ -531,6 +531,31 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 10rem;
 }
 
+@-webkit-keyframes pop{
+  0%{
+    transform: scale(0);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}
+
+@keyframes pop{
+  0%{
+    transform: scale(0);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}
+
+.animate-pop{
+  -webkit-animation: pop 450ms ease-in-out forwards;
+          animation: pop 450ms ease-in-out forwards;
+}
+
 .flex-col{
   flex-direction: column;
 }
