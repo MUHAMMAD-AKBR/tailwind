@@ -27,6 +27,6 @@
     @apply bg-black absolute w-40 h-40 block -bottom-20 -right-20 rounded-[50%]
 }
 
-.dialogbox{
-    @apply block absolute max-w-[40%] min-h-[40%] bg-black rounded text-xl text-green-300 p-4 font-header font-bold z-[9999] top-[20%] right-[50%] translate-x-[50%] translate-y-[50%]
+.container-content-item{
+    @apply border-2 border-black w-[30%] min-h-[350px] rounded-md text-center p-4 text-4xl flex justify-center items-center
 }

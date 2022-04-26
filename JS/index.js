@@ -1,4 +1,4 @@
-import { canvas, ecom, other, cHandler, eHandler, oHandler } from "./box.js";
+import { canvas, ecom, other, scroll1, scroll2, scroll3 } from "./scroll.js";
 const homeBtn = document.querySelector('.home-btn');
 const aboutBtn = document.querySelector('.about-btn');
 const followBtn = document.querySelector('.follow-btn');
@@ -45,6 +45,6 @@ aboutBtn.addEventListener('mouseout', e => {
     }
 });
 // card dialogbox
-canvas.addEventListener('click', cHandler);
-ecom.addEventListener('click', eHandler);
-other.addEventListener('click', oHandler);
+canvas.addEventListener('click', scroll1);
+ecom.addEventListener('click', scroll2);
+other.addEventListener('click', scroll3);
