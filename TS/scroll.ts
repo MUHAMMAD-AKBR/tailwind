@@ -12,20 +12,20 @@ const box3 = oth.getBoundingClientRect();
 
 export const scroll1 = () => {
     window.scrollTo({
-        top: box1.bottom,
+        top: box1.y + 10,
         behavior: "smooth"
     })
 }
 
 export const scroll2 = () => {
     window.scrollTo({
-        top: box2.bottom,
+        top: box2.y,
         behavior: "smooth"
     })
 }
 export const scroll3 = () => {
     window.scrollTo({
-        top: box3.bottom,
+        top: box3.y,
         behavior: "smooth"
     })
 }

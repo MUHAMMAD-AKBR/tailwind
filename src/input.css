@@ -28,5 +28,5 @@
 }
 
 .container-content-item{
-    @apply border-2 border-black w-[30%] min-h-[350px] rounded-md text-center p-4 text-4xl flex justify-center items-center
+    @apply border-2 border-black w-[30%] min-h-[350px] rounded-md text-center p-4 text-4xl flex justify-center items-center bg-black text-green-300
 }
