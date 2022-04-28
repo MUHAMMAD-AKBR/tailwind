@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "serve": "node routing.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
   }
 }
