@@ -49,5 +49,5 @@ canvas.addEventListener('click', scroll1);
 ecom.addEventListener('click', scroll2);
 other.addEventListener('click', scroll3);
 balls.addEventListener('click', () => {
-    window.location.replace('https://google.com');
+    window.location.replace('http://localhost:3000');
 });
