@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "build": "npx tailwindcss -i ./input.css -o ./public/output.css --watch",
     "serve": "node routing.js"
   },
   "keywords": [],
