@@ -58,6 +58,7 @@ aboutBtn.addEventListener('mouseout', e => {
 canvas.addEventListener('click', scroll1)
 ecom.addEventListener('click', scroll2)
 other.addEventListener('click', scroll3)
+
 balls.addEventListener('click', () => {
-   window.location.replace('http://localhost:3000') 
+    console.log("test")
 })
