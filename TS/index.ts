@@ -1,5 +1,6 @@
 import { canvas, ecom , other ,scroll1, scroll2, scroll3, balls , cart , oth} from "./scroll.js";
 
+
 const homeBtn = document.querySelector('.home-btn');
 const aboutBtn = document.querySelector('.about-btn');
 const followBtn = document.querySelector('.follow-btn');
@@ -59,6 +60,3 @@ canvas.addEventListener('click', scroll1)
 ecom.addEventListener('click', scroll2)
 other.addEventListener('click', scroll3)
 
-balls.addEventListener('click', () => {
-    console.log("test")
-})

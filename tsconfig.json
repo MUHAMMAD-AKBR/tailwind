@@ -3,6 +3,7 @@
         "watch": true,
         "target": "ES6",
         "rootDir": "./TS",
-        "outDir": "./JS"
+        "outDir": "./JS",
+        "module": "ESNEXT"
     }
 }

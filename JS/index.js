@@ -1,4 +1,4 @@
-import { canvas, ecom, other, scroll1, scroll2, scroll3, balls } from "./scroll.js";
+import { canvas, ecom, other, scroll1, scroll2, scroll3 } from "./scroll.js";
 const homeBtn = document.querySelector('.home-btn');
 const aboutBtn = document.querySelector('.about-btn');
 const followBtn = document.querySelector('.follow-btn');
@@ -48,6 +48,3 @@ aboutBtn.addEventListener('mouseout', e => {
 canvas.addEventListener('click', scroll1);
 ecom.addEventListener('click', scroll2);
 other.addEventListener('click', scroll3);
-balls.addEventListener('click', () => {
-    console.log("test");
-});
