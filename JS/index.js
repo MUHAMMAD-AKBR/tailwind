@@ -2,6 +2,7 @@ import { canvas, ecom, other, scroll1, scroll2, scroll3 } from "./scroll.js";
 const homeBtn = document.querySelector('.home-btn');
 const aboutBtn = document.querySelector('.about-btn');
 const followBtn = document.querySelector('.follow-btn');
+const url = "https://muhammad-akbr.github.io/";
 homeBtn.addEventListener('mouseover', e => {
     let target = e.target;
     if (e.target == homeBtn) {

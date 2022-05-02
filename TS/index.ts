@@ -4,6 +4,7 @@ import { canvas, ecom , other ,scroll1, scroll2, scroll3, balls , cart , oth} fr
 const homeBtn = document.querySelector('.home-btn');
 const aboutBtn = document.querySelector('.about-btn');
 const followBtn = document.querySelector('.follow-btn');
+const url = "https://muhammad-akbr.github.io/";
 
 homeBtn.addEventListener('mouseover', e => {
     let target = (e.target as HTMLDivElement);
@@ -59,4 +60,3 @@ aboutBtn.addEventListener('mouseout', e => {
 canvas.addEventListener('click', scroll1)
 ecom.addEventListener('click', scroll2)
 other.addEventListener('click', scroll3)
-
