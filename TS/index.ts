@@ -61,3 +61,14 @@ canvas.addEventListener('click', scroll1)
 ecom.addEventListener('click', scroll2)
 other.addEventListener('click', scroll3)
 
+balls.addEventListener('click',() => {
+    window.location.assign("https://muhammad-akbr.github.io/canvas")
+})
+
+cart.addEventListener('click',() => {
+    window.location.assign("https://muhammad-akbr.github.io/canvas")
+})
+
+oth.addEventListener('click',() => {
+    window.location.assign("https://muhammad-akbr.github.io/canvas")
+})
