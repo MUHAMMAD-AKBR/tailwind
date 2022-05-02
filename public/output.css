@@ -2550,13 +2550,19 @@ Ensure the default browser behavior of the `hidden` attribute.
     }
   }
 
-  .sm\:hidden{
-    display: none;
+  .sm\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
-  .sm\:bg-red-200{
-    --tw-bg-opacity: 1;
-    background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+  .sm\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-red-300{
+    --tw-text-opacity: 1;
+    color: rgb(252 165 165 / var(--tw-text-opacity));
   }
 
   .sm\:underline{
@@ -2565,24 +2571,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@media (min-width: 768px){
-  .md\:bg-red-200{
-    --tw-bg-opacity: 1;
-    background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-  }
-}
-
 @media (prefers-color-scheme: dark){
   @media (min-width: 1024px){
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover{
       paint-order: markers;
     }
-  }
-}
-
-@media (min-width: 1280px){
-  .xl\:bg-red-200{
-    --tw-bg-opacity: 1;
-    background-color: rgb(254 202 202 / var(--tw-bg-opacity));
   }
 }
