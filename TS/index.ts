@@ -60,3 +60,4 @@ aboutBtn.addEventListener('mouseout', e => {
 canvas.addEventListener('click', scroll1)
 ecom.addEventListener('click', scroll2)
 other.addEventListener('click', scroll3)
+

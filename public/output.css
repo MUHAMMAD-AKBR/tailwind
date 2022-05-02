@@ -2550,9 +2550,25 @@ Ensure the default browser behavior of the `hidden` attribute.
     }
   }
 
+  .sm\:hidden{
+    display: none;
+  }
+
+  .sm\:bg-red-200{
+    --tw-bg-opacity: 1;
+    background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+  }
+
   .sm\:underline{
     -webkit-text-decoration-line: underline;
             text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:bg-red-200{
+    --tw-bg-opacity: 1;
+    background-color: rgb(254 202 202 / var(--tw-bg-opacity));
   }
 }
 
@@ -2561,5 +2577,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover{
       paint-order: markers;
     }
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:bg-red-200{
+    --tw-bg-opacity: 1;
+    background-color: rgb(254 202 202 / var(--tw-bg-opacity));
   }
 }
